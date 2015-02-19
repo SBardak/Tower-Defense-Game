@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{A5B3538E-D5C7-4495-8B91-9B09B5662CC2}</ProjectGuid>
+    <RootNamespace>TowerDefense</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>C:\Users\Zachary\Source\Repos\TD\Tower Defense\Header\Tower\Views;C:\Users\Zachary\Source\Repos\TD\Tower Defense\Header\Tower\Strategies;C:\Users\Zachary\Source\Repos\TD\Tower Defense\Header\Tower\Decorator;C:\Users\Zachary\Source\Repos\TD\Tower Defense\Header\Tower;C:\Users\Zachary\Source\Repos\TD\Tower Defense\Header\Model;C:\Users\Zachary\Source\Repos\TD\Tower Defense\Header\Map;C:\Users\Zachary\Source\Repos\TD\Tower Defense\Header\Critter;C:\Users\Zachary\Source\Repos\TD\Tower Defense\Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>$(ProjectDir)Header\Tower\Views;$(ProjectDir)Header\Tower\Strategies;$(ProjectDir)Header\Tower\Decorator;$(ProjectDir)Header\Tower;$(ProjectDir)Header\Model;$(ProjectDir)Header\Map;$(ProjectDir)Header\Critter;$(ProjectDir)Header;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Header\Model\BaseModel.h" />
+    <ClInclude Include="Header\Tower\Views\BaseTowerObserver.h" />
+    <ClInclude Include="Header\Tower\Decorator\BasicTower.h" />
+    <ClInclude Include="Header\Critter\Critter.h" />
+    <ClInclude Include="Header\Critter\CritterFactory.h" />
+    <ClInclude Include="Header\Critter\CritterManager.h" />
+    <ClInclude Include="Header\Critter\CritterObserver.h" />
+    <ClInclude Include="Header\Tower\Effect.h" />
+    <ClInclude Include="Header\Tower\Decorator\EffectUpgrade.h" />
+    <ClInclude Include="Header\Map\End.h" />
+    <ClInclude Include="Header\Error.h" />
+    <ClInclude Include="Header\ErrorManager.h" />
+    <ClInclude Include="Header\Game.h" />
+    <ClInclude Include="Header\Map\Grid.h" />
+    <ClInclude Include="Header\Map\GridDisplay.h" />
+    <ClInclude Include="Header\IError.h" />
+    <ClInclude Include="Header\IObserver.h" />
+    <ClInclude Include="Header\Tower\Decorator\LevelUpgrade.h" />
+    <ClInclude Include="Header\Map\MapEditor.h" />
+    <ClInclude Include="Header\MapEntity.h" />
+    <ClInclude Include="Header\Map\MapObject.h" />
+    <ClInclude Include="Header\Observable.h" />
+    <ClInclude Include="Header\Observer.h" />
+    <ClInclude Include="Header\Map\Path.h" />
+    <ClInclude Include="Header\Player.h" />
+    <ClInclude Include="Header\Map\Scenery.h" />
+    <ClInclude Include="Header\Tower\Decorator\SplashUpgrade.h" />
+    <ClInclude Include="Header\Map\Start.h" />
+    <ClInclude Include="Header\Tower\Strategies\Strategy.h" />
+    <ClInclude Include="Header\Tower\Strategies\StrategyNearest.h" />
+    <ClInclude Include="Header\Tower\Strategies\StrategyNearestExit.h" />
+    <ClInclude Include="Header\Tower\Strategies\StrategyStrongest.h" />
+    <ClInclude Include="Header\Tower\Strategies\StrategyWeakest.h" />
+    <ClInclude Include="Header\Tower\Tower.h" />
+    <ClInclude Include="Header\Tower\Views\TowerBuyObserver.h" />
+    <ClInclude Include="Header\Tower\Views\TowerLevelUpObserver.h" />
+    <ClInclude Include="Header\Tower\Views\TowerManagementObserver.h" />
+    <ClInclude Include="Header\Tower\TowerManager.h" />
+    <ClInclude Include="Header\Tower\Views\TowerObserver.h" />
+    <ClInclude Include="Header\Tower\Views\TowerSellingObserver.h" />
+    <ClInclude Include="Header\Tower\Decorator\Upgrade.h" />
+    <ClInclude Include="Header\Utility.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Model\BaseModel.cpp" />
+    <ClCompile Include="Source\Tower\Views\BaseTowerObserver.cpp" />
+    <ClCompile Include="Source\Tower\Decorator\BasicTower.cpp" />
+    <ClCompile Include="Source\Critter\Critter.cpp" />
+    <ClCompile Include="Source\Critter\CritterFactory.cpp" />
+    <ClCompile Include="Source\Critter\CritterManager.cpp" />
+    <ClCompile Include="Source\Driver.cpp" />
+    <ClCompile Include="Source\Tower\Effect.cpp" />
+    <ClCompile Include="Source\Tower\Decorator\EffectUpgrade.cpp" />
+    <ClCompile Include="Source\Map\End.cpp" />
+    <ClCompile Include="Source\ErrorManager.cpp" />
+    <ClCompile Include="Source\Game.cpp" />
+    <ClCompile Include="Source\Map\Grid.cpp" />
+    <ClCompile Include="Source\Map\GridDisplay.cpp" />
+    <ClCompile Include="Source\IObserver.cpp" />
+    <ClCompile Include="Source\Tower\Decorator\LevelUpgrade.cpp" />
+    <ClCompile Include="Source\Map\MapEditor.cpp" />
+    <ClCompile Include="Source\MapEntity.cpp" />
+    <ClCompile Include="Source\Map\MapObject.cpp" />
+    <ClCompile Include="Source\Observable.cpp" />
+    <ClCompile Include="Source\Map\Path.cpp" />
+    <ClCompile Include="Source\Player.cpp" />
+    <ClCompile Include="Source\Map\Scenery.cpp" />
+    <ClCompile Include="Source\Critter\CritterObserver.cpp" />
+    <ClCompile Include="Source\Error.cpp" />
+    <ClCompile Include="Source\Tower\Decorator\SplashUpgrade.cpp" />
+    <ClCompile Include="Source\Map\Start.cpp" />
+    <ClCompile Include="Source\Tower\Strategies\StrategyNearest.cpp" />
+    <ClCompile Include="Source\Tower\Strategies\StrategyNearestExit.cpp" />
+    <ClCompile Include="Source\Tower\Strategies\StrategyStrongest.cpp" />
+    <ClCompile Include="Source\Tower\Strategies\StrategyWeakest.cpp" />
+    <ClCompile Include="Source\Tower\Tower.cpp" />
+    <ClCompile Include="Source\Tower\Views\TowerBuyObserver.cpp" />
+    <ClCompile Include="Source\Tower\Views\TowerLevelUpObserver.cpp" />
+    <ClCompile Include="Source\Tower\Views\TowerManagementObserver.cpp" />
+    <ClCompile Include="Source\Tower\TowerManager.cpp" />
+    <ClCompile Include="Source\Tower\Views\TowerObserver.cpp" />
+    <ClCompile Include="Source\Tower\Views\TowerSellingObserver.cpp" />
+    <ClCompile Include="Source\Tower\Decorator\Upgrade.cpp" />
+    <ClCompile Include="Source\Utility.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,309 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Critter">
+      <UniqueIdentifier>{d64d1986-49fd-4e79-afd6-930f2c02dc2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Model">
+      <UniqueIdentifier>{4b4adc2c-6434-4cf2-b909-477ec5dbff3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tower">
+      <UniqueIdentifier>{44f8f797-8ee6-4cad-9ec2-53ec106a7ade}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Map">
+      <UniqueIdentifier>{ceb88825-1f82-4f7b-87a6-f42f471d873a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Model">
+      <UniqueIdentifier>{e9b7d8ba-20fb-428a-80d3-5de6fe24405c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Critter">
+      <UniqueIdentifier>{f6fd6cb9-bd1d-4c66-83a7-bed77ccc9c4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Map">
+      <UniqueIdentifier>{8450e4cd-d131-492b-b798-f6845c052622}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tower\Views">
+      <UniqueIdentifier>{34ec3d1e-1514-4bca-a689-b983a6e24716}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tower">
+      <UniqueIdentifier>{ed07b544-b2fa-45e3-bea6-261175550899}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tower\Views">
+      <UniqueIdentifier>{da82f879-54f4-49fb-8958-b1c0bccfa52b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tower\Strategies">
+      <UniqueIdentifier>{74684be0-0d43-4a7f-ad08-c3655223b85e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tower\Decorator">
+      <UniqueIdentifier>{5710078c-4599-4f8e-9671-71376d760161}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Tower\Strategies">
+      <UniqueIdentifier>{46c2d301-08ba-4792-9140-5dd85ceab78c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Tower\Decorator">
+      <UniqueIdentifier>{347994a7-60df-44d9-ba9d-b860c7269bc0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Header\Model\BaseModel.h">
+      <Filter>Header Files\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\Views\BaseTowerObserver.h">
+      <Filter>Header Files\Tower\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\Decorator\BasicTower.h">
+      <Filter>Header Files\Tower\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Critter\Critter.h">
+      <Filter>Header Files\Critter</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Critter\CritterFactory.h">
+      <Filter>Header Files\Critter</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Critter\CritterManager.h">
+      <Filter>Header Files\Critter</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Critter\CritterObserver.h">
+      <Filter>Header Files\Critter</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\Effect.h">
+      <Filter>Header Files\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\Decorator\EffectUpgrade.h">
+      <Filter>Header Files\Tower\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Map\End.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Map\Grid.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Map\GridDisplay.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\Decorator\LevelUpgrade.h">
+      <Filter>Header Files\Tower\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Map\MapEditor.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Map\MapObject.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Map\Path.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Map\Scenery.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\Decorator\SplashUpgrade.h">
+      <Filter>Header Files\Tower\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Map\Start.h">
+      <Filter>Header Files\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\Strategies\Strategy.h">
+      <Filter>Header Files\Tower\Strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\Strategies\StrategyNearest.h">
+      <Filter>Header Files\Tower\Strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\Strategies\StrategyNearestExit.h">
+      <Filter>Header Files\Tower\Strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\Strategies\StrategyStrongest.h">
+      <Filter>Header Files\Tower\Strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\Strategies\StrategyWeakest.h">
+      <Filter>Header Files\Tower\Strategies</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\Views\TowerBuyObserver.h">
+      <Filter>Header Files\Tower\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\Views\TowerLevelUpObserver.h">
+      <Filter>Header Files\Tower\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\Views\TowerManagementObserver.h">
+      <Filter>Header Files\Tower\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\Views\TowerObserver.h">
+      <Filter>Header Files\Tower\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\Views\TowerSellingObserver.h">
+      <Filter>Header Files\Tower\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\Decorator\Upgrade.h">
+      <Filter>Header Files\Tower\Decorator</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\TowerManager.h">
+      <Filter>Header Files\Tower</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Error.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\ErrorManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\IError.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\IObserver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\MapEntity.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Observable.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Observer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Utility.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Header\Tower\Tower.h">
+      <Filter>Header Files\Tower\Decorator</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Model\BaseModel.cpp">
+      <Filter>Source Files\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower\Views\BaseTowerObserver.cpp">
+      <Filter>Source Files\Tower\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower\Decorator\BasicTower.cpp">
+      <Filter>Source Files\Tower\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Critter\Critter.cpp">
+      <Filter>Source Files\Critter</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Critter\CritterFactory.cpp">
+      <Filter>Source Files\Critter</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Critter\CritterManager.cpp">
+      <Filter>Source Files\Critter</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Critter\CritterObserver.cpp">
+      <Filter>Source Files\Critter</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower\Effect.cpp">
+      <Filter>Source Files\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower\Decorator\EffectUpgrade.cpp">
+      <Filter>Source Files\Tower\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map\End.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map\Grid.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map\GridDisplay.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower\Decorator\LevelUpgrade.cpp">
+      <Filter>Source Files\Tower\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map\MapEditor.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map\MapObject.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map\Path.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map\Scenery.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower\Decorator\SplashUpgrade.cpp">
+      <Filter>Source Files\Tower\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map\Start.cpp">
+      <Filter>Source Files\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower\Strategies\StrategyNearest.cpp">
+      <Filter>Source Files\Tower\Strategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower\Strategies\StrategyNearestExit.cpp">
+      <Filter>Source Files\Tower\Strategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower\Strategies\StrategyStrongest.cpp">
+      <Filter>Source Files\Tower\Strategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower\Strategies\StrategyWeakest.cpp">
+      <Filter>Source Files\Tower\Strategies</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower\Views\TowerBuyObserver.cpp">
+      <Filter>Source Files\Tower\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower\Views\TowerLevelUpObserver.cpp">
+      <Filter>Source Files\Tower\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower\Views\TowerManagementObserver.cpp">
+      <Filter>Source Files\Tower\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower\Views\TowerObserver.cpp">
+      <Filter>Source Files\Tower\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower\Views\TowerSellingObserver.cpp">
+      <Filter>Source Files\Tower\Views</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower\Decorator\Upgrade.cpp">
+      <Filter>Source Files\Tower\Decorator</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower\TowerManager.cpp">
+      <Filter>Source Files\Tower</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Driver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Error.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ErrorManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IObserver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MapEntity.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Observable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Utility.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Tower\Tower.cpp">
+      <Filter>Source Files\Tower\Decorator</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

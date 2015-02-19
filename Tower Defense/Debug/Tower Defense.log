@@ -1,0 +1,86 @@
+﻿Build started 2015-02-18 9:20:04 PM.
+     1>Project "C:\Users\Sebouh\Desktop\C++ Team\Tower Defense\Tower Defense.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\Sebouh\Desktop\C++ Team\Tower Defense\Header\Tower\Views" /I"C:\Users\Sebouh\Desktop\C++ Team\Tower Defense\Header\Tower\Strategies" /I"C:\Users\Sebouh\Desktop\C++ Team\Tower Defense\Header\Tower\Decorator" /I"C:\Users\Sebouh\Desktop\C++ Team\Tower Defense\Header\Tower" /I"C:\Users\Sebouh\Desktop\C++ Team\Tower Defense\Header\Model" /I"C:\Users\Sebouh\Desktop\C++ Team\Tower Defense\Header\Map" /I"C:\Users\Sebouh\Desktop\C++ Team\Tower Defense\Header\Critter" /I"C:\Users\Sebouh\Desktop\C++ Team\Tower Defense\Header" /I"C:\Users\Zachary\Source\Repos\TD\Tower Defense\Header\Tower\Views" /I"C:\Users\Zachary\Source\Repos\TD\Tower Defense\Header\Tower\Strategies" /I"C:\Users\Zachary\Source\Repos\TD\Tower Defense\Header\Tower\Decorator" /I"C:\Users\Zachary\Source\Repos\TD\Tower Defense\Header\Tower" /I"C:\Users\Zachary\Source\Repos\TD\Tower Defense\Header\Model" /I"C:\Users\Zachary\Source\Repos\TD\Tower Defense\Header\Map" /I"C:\Users\Zachary\Source\Repos\TD\Tower Defense\Header\Critter" /I"C:\Users\Zachary\Source\Repos\TD\Tower Defense\Header" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Source\Critter\CritterFactory.cpp Source\Critter\CritterManager.cpp Source\Driver.cpp Source\Game.cpp Source\Map\End.cpp Source\Map\Grid.cpp Source\Map\GridDisplay.cpp Source\Map\MapEditor.cpp Source\Map\MapObject.cpp Source\Map\Path.cpp Source\Map\Scenery.cpp Source\Map\Start.cpp Source\Observable.cpp Source\Tower\Decorator\BasicTower.cpp Source\Tower\Decorator\EffectUpgrade.cpp Source\Tower\Decorator\LevelUpgrade.cpp Source\Tower\Decorator\SplashUpgrade.cpp Source\Tower\Decorator\Upgrade.cpp Source\Tower\Strategies\StrategyNearest.cpp Source\Tower\Strategies\StrategyNearestExit.cpp Source\Tower\Strategies\StrategyStrongest.cpp Source\Tower\Strategies\StrategyWeakest.cpp Source\Tower\Tower.cpp Source\Tower\TowerManager.cpp Source\Tower\Views\BaseTowerObserver.cpp Source\Tower\Views\TowerBuyObserver.cpp Source\Tower\Views\TowerLevelUpObserver.cpp Source\Tower\Views\TowerManagementObserver.cpp Source\Tower\Views\TowerObserver.cpp Source\Tower\Views\TowerSellingObserver.cpp
+         BasicTower.cpp
+         Observable.cpp
+         Generating Code...
+         Compiling...
+         TowerSellingObserver.cpp
+         TowerObserver.cpp
+         TowerManagementObserver.cpp
+         TowerLevelUpObserver.cpp
+         TowerBuyObserver.cpp
+         BaseTowerObserver.cpp
+         TowerManager.cpp
+         Tower.cpp
+         StrategyWeakest.cpp
+         StrategyStrongest.cpp
+         StrategyNearestExit.cpp
+         StrategyNearest.cpp
+         Upgrade.cpp
+         SplashUpgrade.cpp
+         LevelUpgrade.cpp
+         EffectUpgrade.cpp
+         Start.cpp
+         Scenery.cpp
+         Path.cpp
+         MapObject.cpp
+         Generating Code...
+         Compiling...
+         MapEditor.cpp
+         GridDisplay.cpp
+         Grid.cpp
+         End.cpp
+         Game.cpp
+         Driver.cpp
+         CritterManager.cpp
+         CritterFactory.cpp
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Sebouh\Desktop\C++ Team\Debug\Tower Defense.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Sebouh\Desktop\C++ Team\Debug\Tower Defense.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Sebouh\Desktop\C++ Team\Debug\Tower Defense.lib" /MACHINE:X86 Debug\BaseModel.obj
+         Debug\BaseTowerObserver.obj
+         Debug\BasicTower.obj
+         Debug\Critter.obj
+         Debug\CritterFactory.obj
+         Debug\CritterManager.obj
+         Debug\Driver.obj
+         Debug\Effect.obj
+         Debug\EffectUpgrade.obj
+         Debug\End.obj
+         Debug\ErrorManager.obj
+         Debug\Game.obj
+         Debug\Grid.obj
+         Debug\GridDisplay.obj
+         Debug\IObserver.obj
+         Debug\LevelUpgrade.obj
+         Debug\MapEditor.obj
+         Debug\MapEntity.obj
+         Debug\MapObject.obj
+         Debug\Observable.obj
+         Debug\Path.obj
+         Debug\Player.obj
+         Debug\Scenery.obj
+         Debug\CritterObserver.obj
+         Debug\Error.obj
+         Debug\SplashUpgrade.obj
+         Debug\Start.obj
+         Debug\StrategyNearest.obj
+         Debug\StrategyNearestExit.obj
+         Debug\StrategyStrongest.obj
+         Debug\StrategyWeakest.obj
+         Debug\Tower.obj
+         Debug\TowerBuyObserver.obj
+         Debug\TowerLevelUpObserver.obj
+         Debug\TowerManagementObserver.obj
+         Debug\TowerManager.obj
+         Debug\TowerObserver.obj
+         Debug\TowerSellingObserver.obj
+         Debug\Upgrade.obj
+         Debug\Utility.obj
+         Tower Defense.vcxproj -> C:\Users\Sebouh\Desktop\C++ Team\Debug\Tower Defense.exe
+     1>Done Building Project "C:\Users\Sebouh\Desktop\C++ Team\Tower Defense\Tower Defense.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:12.93
